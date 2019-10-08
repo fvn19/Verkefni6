@@ -71,19 +71,11 @@ h2 {
   padding-left: 10px;
 }
 
-/* TODO setja upp grid fyrir >= 1000px */
-
-/* TODO koma mynd fyrir á öðrum stað í < 1000px */
-
-/* grid fyrir cards */
-
 .cards__row {
   display: flex;
   flex-direction: column;
   justify-content: space-around;
-
-  margin-left: -10px;
-  margin-right: -10px;
+  margin-bottom: 20px;
 }
 
 .cards__col {
@@ -124,6 +116,12 @@ h2 {
 .card {
   display: flex;
   flex-direction: column;
+  margin-top: 10px;
+}
+
+.card__row {
+  margin-bottom: 20px;
+
 }
 
 .kort4__text {
@@ -141,16 +139,6 @@ li {
   font-weight: bold;
 }
 
-.card::-webkit-scrollbar-track {
-  -webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
-}
-
-.card::-webkit-scrollbar-thumb {
-  background-color: darkgrey;
-  outline: 1px solid slategrey;
-}
-
-::-webkit-scrollbar-button {}
 
 @media screen and (min-width: 700px) {
 
@@ -160,6 +148,7 @@ li {
 
     margin-left: -10px;
     margin-right: -10px;
+    margin-bottom: 40px;
   }
 
   .cards__col {
@@ -221,6 +210,11 @@ li {
   }
 }
 
+/* TODO setja upp grid fyrir >= 1000px */
+
+/* TODO koma mynd fyrir á öðrum stað í < 1000px */
+
+/* grid fyrir cards */
 /* TODO útfæra grid fyrir cards */
 
 /*
